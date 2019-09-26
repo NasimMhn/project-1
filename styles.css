@@ -5,10 +5,43 @@ body {
     font-family: 'Merriweather', serif;
     line-height: 2;
 }
-    
+main {
+    margin: 50px 0;
+}
 
-.section img {
-    height: 300px;
-    width: 300px;
-    object-fit: cover;
+h1 {
+    color:#66BFBF;
+    font-size: 130px;
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+}
+
+h3 {
+    color:#11999E;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.advice img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.advice-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+  
+}
+
+.left-img {
+    width: 30%;
+    float: left;
+    margin-right: 30px;
+}
+
+.right-img {
+    width: 30%;
+    float: right;
+    margin-right: 30px;
 }
